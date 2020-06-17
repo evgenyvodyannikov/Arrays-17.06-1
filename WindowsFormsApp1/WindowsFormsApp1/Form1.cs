@@ -35,7 +35,9 @@ namespace WindowsFormsApp1
 
             if(x > 50)
             {
+               
                 g.Clear(Color.White);
+                g.FillRectangle(Brushes.Blue, 0, 300, 800, 500);
                 g.DrawLine(Pens.Black, 20 + x, 270 + y, 20 + x, 300 + y);
                 g.DrawLine(Pens.Black, 20 + x, 300 + y, 150 + x, 300 + y);
                 g.DrawLine(Pens.Black, 150 + x, 300 + y, 180 + x, 260 + y);
@@ -67,7 +69,9 @@ namespace WindowsFormsApp1
             }
             else
             {
+                
                 g.Clear(Color.White);
+                g.FillRectangle(Brushes.Blue, 0, 300, 800, 500);
                 g.DrawLine(Pens.Black, 20 + x, 270, 20 + x, 300);
                 g.DrawLine(Pens.Black, 20 + x, 300, 150 + x, 300);
                 g.DrawLine(Pens.Black, 150 + x, 300, 180 + x, 260);
